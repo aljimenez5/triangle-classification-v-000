@@ -10,7 +10,8 @@ class Triangle
   
  
   def kind
-    while [one, two, three] !== 0
+    sides_array = [one, two, three]
+    while [one, two, three] !== 0 && 
       if one == two && two == three
         return :equilateral
       elsif one == two || one == three || two == three
