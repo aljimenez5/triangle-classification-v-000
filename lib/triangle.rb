@@ -8,11 +8,7 @@ class Triangle
     @side_three = side_three
   end
   
-  def equilateral
-    if one == two && two == three
-      return :equilateral unless [one, two, three] == 0
-    
-    
+ 
   def kind
     one = self.side_one
     two = self.side_two
