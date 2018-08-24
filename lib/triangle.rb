@@ -15,6 +15,7 @@ class Triangle
     three = self.side_three
     if one == two && two == three
       return :equilateral
+      if 
     elsif one == two || one == three || two == three
       return :isosceles
     elsif one != two && two != three && one != three
