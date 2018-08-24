@@ -21,7 +21,7 @@ class Triangle
       return :scalene
     else 
       raise TriangleError
-        if 
+        if [one, two, three] === 0
     end
   end 
   
