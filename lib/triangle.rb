@@ -13,7 +13,7 @@ class Triangle
     one = self.side_one
     two = self.side_two
     three = self.side_three
-    if (one, two, three)
+    if (one, two, three) == {/\d{2}/}
       return :equilateral
       if 
     elsif one == two || one == three || two == three
