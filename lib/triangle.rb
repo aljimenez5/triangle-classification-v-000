@@ -10,9 +10,6 @@ class Triangle
   
  
   def kind
-    one = self.side_one
-    two = self.side_two
-    three = self.side_three
     if one == two && two == three
       return :equilateral
     elsif one == two || one == three || two == three
