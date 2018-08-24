@@ -11,12 +11,12 @@ class Triangle
  
   def kind
     while [one, two, three] !== 0
-    if one == two && two == three
-      return :equilateral
-    elsif one == two || one == three || two == three
-      return :isosceles
-    elsif one != two && two != three && one != three
-      return :scalene
+      if one == two && two == three
+        return :equilateral
+      elsif one == two || one == three || two == three
+        return :isosceles
+      elsif one != two && two != three && one != three
+        return :scalene
     else 
       raise TriangleError
     end
