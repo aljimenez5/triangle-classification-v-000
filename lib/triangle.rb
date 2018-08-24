@@ -19,6 +19,8 @@ class Triangle
       return :isosceles
     elsif one != two && two != three && one != three
       return :scalene
+    else 
+      raise 
     end
   end 
   
