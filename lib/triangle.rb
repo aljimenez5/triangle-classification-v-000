@@ -1,11 +1,11 @@
 require 'pry'
 class Triangle
-  attr_accessor :sides, :side_one, :side_two, :side_three
+  attr_accessor :sides, :one, :two, :three
   
   def initialize(side_one, side_two, side_three)
-    @side_one = side_one
-    @side_two = side_two
-    @side_three = side_three
+    @one = side_one
+    @two = side_two
+    @three = side_three
   end
   
  
