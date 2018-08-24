@@ -10,7 +10,7 @@ class Triangle
   
   def equilateral
     if one == two && two == three
-      return :equilateral unless one == 0 || two || three
+      return :equilateral unless [one, two, three] == 0
     
     
   def kind
