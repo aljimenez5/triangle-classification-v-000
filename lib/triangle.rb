@@ -11,7 +11,7 @@ class Triangle
  
   def kind
     sides_array = [one, two, three]
-    while sides_array === 0
+    while /[1-9]/ === sides_array
       if one == two && two == three
         return :equilateral
       elsif one == two || one == three || two == three
