@@ -8,7 +8,6 @@ class Triangle
     @three = side_three
   end
   
- 
   def kind
     sides_array = [one, two, three]
     while sides_array.all? {|number| number > 0} && one + two > three && one + three > two && two + three > one
