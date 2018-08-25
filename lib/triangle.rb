@@ -19,8 +19,7 @@ class Triangle
       elsif one != two && two != three && one != three
         return :scalene
       end
-    else 
-      raise TriangleError
+    raise TriangleError
     end
   end 
   
