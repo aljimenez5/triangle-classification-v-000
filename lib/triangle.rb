@@ -21,6 +21,7 @@ class Triangle
         break
       else
         raise TriangleError
+      end
     end
   end 
   
